@@ -15,5 +15,7 @@ class MainActivity : AppCompatActivity() {
         component.car.startTheCar()
         component.main.getDemoOne()
         component.main.getDemoTwo()
+
+        component.mainViewModel.getTest()
     }
 }
